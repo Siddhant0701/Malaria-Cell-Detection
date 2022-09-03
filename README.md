@@ -11,7 +11,13 @@ One way to create such a model is by constructing a `Convolutional Neural Networ
 
 ## Data
 
-The data used to train the model comes from [US'National Institues of Health](https://ceb.nlm.nih.gov/repositories/malaria-datasets/) and will be imported into the project from [`Tensorflow-Datasets`](https://www.tensorflow.org/datasets/catalog/malaria). This dataset has exactly `27,558` images of parasitized and uninfected cells from the thin blood smear slide images of segmented cells. The data was collected from 150 patients that were infected with Malaria and 50 healthy patients. The infected cells contain parasites called `Plasmodium Falciparum` that are responsible for causing Malaria. 
+The data used to train the model comes from [US'National Institues of Health](https://ceb.nlm.nih.gov/repositories/malaria-datasets/) and will be imported into the project from [`Tensorflow-Datasets`](https://www.tensorflow.org/datasets/catalog/malaria). This dataset has exactly `27,558` images of parasitized and uninfected cells from the thin blood smear slide images of segmented cells. The data was collected from 150 patients that were infected with Malaria and 50 healthy patients. The infected cells contain parasites called `Plasmodium Falciparum` that are responsible for causing Malaria.
+
+<br/>
+
+[<img src=images/example.png height=400 style="background-color:white;">](images/example.png)
+
+<br/>
 
 There are equal number of images for both the classes. The data was split into `training`, `validation` and `test` sets using a 80-10-10 split. All sets include almost equal instances of the two classes. 
 
